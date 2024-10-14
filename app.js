@@ -1,6 +1,6 @@
 let listaDeNumerosSorteados = []
 let contador = 1;
-let numeroLimite = 100;
+let numeroLimite = 50;
 let numeroSecreto = gerarNumerosAleatorios();
 console.log(numeroSecreto);
 
@@ -56,7 +56,7 @@ function substituir(tag, texto){
 // chamando a função em sí.
 function exibirMensagemInicial(){
 substituir('h1', 'Jogo do numero secreto');
-substituir('p', 'Escolha um número entre 1 e 10');
+substituir('p', 'Escolha um número entre 1 e 50');
 }
 exibirMensagemInicial();
 
